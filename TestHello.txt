@@ -1,0 +1,32 @@
+package com.scsvmv.javalab;
+
+import com.scsvmv.javalab.hello.Hello;
+
+/*
+ * TestHello class
+ * Demonstrates passing command-line arguments
+ */
+ public class TestHello {
+   
+    public static void main(string[]args){
+
+   Hello simpleHello=new Hello();
+   simpleHello.wish();
+
+   com.scsvmv.javalab.hello.Hello =
+        new com.scsvmv.javalab.hello.Hello();
+
+   if(args.length>0) {
+     h.wish(args[0]);
+     }else{
+        system.out.println("Usage:");
+        system.out.println("java com.scsvmv.javalab.TestHello<name>");
+        system.out.println("Example:");
+        system.out.println("java com.scsvmv.javalab.TestHello Student");
+         }
+         
+      }
+ 
+ }
+
+            
